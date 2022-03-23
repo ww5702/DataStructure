@@ -23,6 +23,7 @@
        E. Heap (max / min)
        F. Graph (array / list)
        G. HashSet
+***       
        
 # 자료구조(Data Structure)
 자료구조의 사전적인 의미는 자료(Data)의 집합을 의미하며, 
@@ -52,6 +53,8 @@
 ### 비선형구조
 1. Tree(트리)
 2. Graph(크래프)
+
+***
 
 # Array
 Array(배열)
