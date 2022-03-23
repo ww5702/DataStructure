@@ -60,7 +60,7 @@ Array(배열)
 부여된 인덱스를 통해 해당 셀 안에 저장되어 있는 데이터에 접근할 수 있다.
 
 ### 시간복잡도
-
+![image](https://user-images.githubusercontent.com/60501045/159606869-c90e8f95-4ecd-4982-9da7-6435cc97ac0c.png)
 
 ### 장점
 쉽게 만들어서 활용할 수 있다.
