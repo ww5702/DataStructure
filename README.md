@@ -62,6 +62,7 @@ Array(배열)
 
 ### 시간복잡도
 ![image](https://user-images.githubusercontent.com/60501045/159606869-c90e8f95-4ecd-4982-9da7-6435cc97ac0c.png)
+
 데이터를 배열에 삽입하려면 기존에 있는 데이터를 한칸씩 전부 옮긴 후 데이터를 넣어야 하기에 O(N)이 걸린다.
 삭제 또한 마찬가지이다.
 
