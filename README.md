@@ -118,19 +118,28 @@ fun main() {
 이에 따라 push()연산과 pop()연산, peek()연산 그리고 isEmpty()연산이 있다.
 
 ## push()
-push()연산은 문자 그대로 집어넣는, 즉 데이터를 스택에 삽입하는 연산이다.   
+push()연산은 문자 그대로 집어넣는, 즉 데이터를 스택에 삽입하는 연산이다. 
+
 ![image](https://user-images.githubusercontent.com/60501045/159611234-39a0c7f6-31f8-4651-a542-6206cbc3fae5.png)    
 
 선입선출의 구조에 따라 가장 최근에 들어온 데이터가 가장 상단에 위치하게 된다.   
 
 ## pop()
 pop, 즉 스택에 데이터를 꺼내는 연산이다.   
+
 ![image](https://user-images.githubusercontent.com/60501045/159611409-1e4c4845-a0d5-4bcb-a02a-382e7ef07161.png)  
 
 이 또한 선입선출의 구조에 따라 현재 스택에서 top이 가리키고 있는 데이터를 꺼내게 된다.   
 만약 꺼낼 top 데이터가 없을 경우 pop연산이 실행되지 않는다.   
 
+## peek()
+peek()연산은 현재 top이 가리키고 있는 데이터를 확인하는 연산이다.   
+pop()과 다른점이 있다면 pop()은 데이터를 스택에서 꺼내서 읽는다면,   
+peek 연산은 데이터를 꺼내지않고 값만 확인하는 것이다.   
 
+## isEmpty()
+isEmpty()연산은 스택이 비어있는지 확인하는 연산이다.   
+비어있다면 True, 비어있지 않다면 False를 반환한다.   
 
 ## 시간복잡도
 ![image](https://user-images.githubusercontent.com/60501045/159610632-e0530036-edea-4ccd-b88a-6cd2fa0a1043.png)
