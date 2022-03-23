@@ -144,10 +144,16 @@ isEmpty()연산은 스택이 비어있는지 확인하는 연산이다.
 ## 시간복잡도
 ![image](https://user-images.githubusercontent.com/60501045/159610632-e0530036-edea-4ccd-b88a-6cd2fa0a1043.png)
 
+삽입 연산의 경우 데이터의 개수와 상관없이 top에 데이터를 삽입하므로 O(1)이다.   
+삭제 또한 위와 같으므로 O(1)이다.   
+하지만 검색 연산의 경우 스택에 존재하는 모든 데이터를 찾는 것이므로   
+n개의 데이터를 전부 순회해야 하기에 O(N)이다.   
+
 ## 장점
 동적인 메모리 크기   
 데이터를 받는 순서대로 정렬된다.   
 빠른 런타임   
+데이터의 삽입과 삭제가 빠르다.   
 
 ## 단점
 가장 최신 요소만 가져온다.   
@@ -159,6 +165,83 @@ isEmpty()연산은 스택이 비어있는지 확인하는 연산이다.
 실행 취소   
 재귀   
 
+## Code
+### Java
+자바에서는 기본적으로 stack 객체를 제공해준다.   
+```
+import java.util.Stack;
+
+public class StackExample {
+
+    public static void main(String[] args) {
+        Stack<Integer> stack = new Stack<>();
+       
+        stack.push(5);
+        stack.push(4);
+        stack.push(3);
+        stack.push(2);
+        stack.push(1);
+       
+        System.out.println(stack.pop());
+        System.out.println(stack.pop());
+        System.out.println(stack.pop());
+        System.out.println(stack.pop());
+        System.out.println(stack.pop());
+       
+        System.out.println("---------------");
+       
+        stack.push(5);
+        stack.push(4);
+        stack.push(3);
+       
+        System.out.println(stack.size());
+        System.out.println(stack.peek());
+        System.out.println(stack.size());
+       
+    }
+}
+```
+
+### Kotlin
+코틀린에는 따로 stack 객체가 존재하지 않는다.   
+따라서 MutableList와 ArrayList로 stack을 구현할 수 있다.   
+
+```
+fun main() {
+    var mutableList = mutableListOf<Int>()
+
+    mutableList.add(1)
+    mutableList.add(2)
+    mutableList.add(3)
+
+    mutableList.removeAt(mutableList.size-1)
+
+    print(mutableList[mutableList.size-1])
+
+    println(mutableList.isEmpty())
+    println(mutableList.isNotEmpty())
+
+    println(mutableList.size)
+}
+```
+```
+fun main() {
+    var arrayList = arrayListOf<Int>()
+
+    arrayList.add(1)
+    arrayList.add(2)
+    arrayList.add(3)
+
+    arrayList.removeAt(arrayList.size-1)
+
+    print(arrayList[arrayList.size-1])
+
+    println(arrayList.isEmpty())
+    println(arrayList.isNotEmpty())
+
+    println(arrayList.size)
+}
+```
 
 ***
 
