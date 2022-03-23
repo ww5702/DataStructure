@@ -80,6 +80,7 @@ Array(배열)
 
 ### Code
 #### Java
+```
 int arr[] = new int[10];
 
 for(int i = 0; i < 10; i++) {
@@ -89,6 +90,7 @@ for(int i = 0; i < 10; i++) {
 for(int i = 0; i < 10; i++) {
 	System.out.print(arr[i]);
 }
+```
 
 #### Kotlin
 ```
