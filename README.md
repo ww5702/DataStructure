@@ -365,6 +365,7 @@ A,B,C,D 등의 구성요소들을 노드(node)라고 한다.
 
 ## 이진 트리(Binary Tree)
 각 노드가 최대 두개의 자식을 갖는 트리이다.(모든 트리가 이진 트리는 아니다)      
+
 ### 이진 트리 순회
 1. 중위 순회 : 왼쪽 -> 현재 -> 오른쪽
 ![image](https://user-images.githubusercontent.com/60501045/160238442-81dd6624-1b2c-4e10-92ab-5f6a11143d1f.png)   
@@ -373,6 +374,8 @@ A,B,C,D 등의 구성요소들을 노드(node)라고 한다.
 ![image](https://user-images.githubusercontent.com/60501045/160238418-504c8506-c25b-437f-8e37-2b690e53bf75.png)   
 
 3. 후위 순회 : 왼쪽 -> 오른쪽 -> 현재
+![image](https://user-images.githubusercontent.com/60501045/160238466-3493c71a-00d7-4249-b2f0-288454bdd337.png)   
+
 
 ## 이진 탐색 트리(Binary Search Tree)
 모든 노드가 아래와 같은 특정 순서를 따르는 속성이 있는 이진 트리.   
