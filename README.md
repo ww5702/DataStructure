@@ -368,6 +368,8 @@ A,B,C,D 등의 구성요소들을 노드(node)라고 한다.
 ### 이진 트리 순회
 1. 중위 순회 : 왼쪽 -> 현재 -> 오른쪽
 2. 전위 순회 : 현재 -> 왼쪽 -> 오른쪽
+![image](https://user-images.githubusercontent.com/60501045/160238418-504c8506-c25b-437f-8e37-2b690e53bf75.png)   
+
 3. 후위 순회 : 왼쪽 -> 오른쪽 -> 현재
 
 ## 이진 탐색 트리(Binary Search Tree)
