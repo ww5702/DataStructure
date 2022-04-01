@@ -404,6 +404,7 @@ Undirected graph는 방향이 지정되어있지 않아서 양방향이다.
 
 ## 너비 우선 탐색(BFS, Breadth-First Search)
 루트노드에서 시작해서 인접한 노드를 먼저 탐색하는 방법이다.   
+![image](https://user-images.githubusercontent.com/60501045/161250035-7fde1441-6fbc-45a6-be21-2e0138af615f.png)   
 
 즉, 깊게(deep) 탐색하기 전에 넓게(wide) 탐색하는 것이다.
 
