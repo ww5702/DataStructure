@@ -398,7 +398,7 @@ Undirected graph는 방향이 지정되어있지 않아서 양방향이다.
 
 ## 깊이 우선 탐색(DFS, Depth-First Search)
 루트 노드에서 시작해서 다음 분기로 넘어가기 전에 해당 분기를 완벽하게 탐색하는 방법   
-
+![image](https://user-images.githubusercontent.com/60501045/161249907-05b542cd-091c-40ec-99b0-fbc8efd8c78c.png)   
 
 즉, 넓게(wide) 탐색하기 전에 깊게(deep) 탐색하는것이다.
 
