@@ -432,13 +432,13 @@ Undirected graph는 방향이 지정되어있지 않아서 양방향이다.
 부모 노드의 키 값이 자식 노드의 키 값보다 크거나 같은 완전 이진 트리   
 key(부모 노드) >= key(자식 노드)   
 
-
+![image](https://user-images.githubusercontent.com/60501045/161380649-d8e8e7cc-0502-4ded-8d55-110fc6adbd78.png)   
 
 ## 최소 힙(Min heap)
 부모 노드의 키 값이 자식 노드의 키 값보다 작거나 같은 완전 이진 트리   
 key(부모 노드) <= key(자식 노드)   
 
-
+![image](https://user-images.githubusercontent.com/60501045/161380668-24261b33-fb00-4a57-bcc2-ae39481260f0.png)   
 
 
 ***
