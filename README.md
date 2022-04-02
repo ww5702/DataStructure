@@ -454,7 +454,7 @@ key(부모 노드) <= key(자식 노드)
 1. 삭제된 루트노드에 힙의 마지막 노드를 가져온다.   
 2. 힙을 재구성해준다.   
 
-
+![image](https://user-images.githubusercontent.com/60501045/161380853-83cc95d8-a116-48b1-918c-f36bb12f16a5.png)
 
 
 ***
